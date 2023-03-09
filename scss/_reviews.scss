@@ -1,0 +1,18 @@
+.reviews {
+  p {
+    margin: 2px 25px;
+  }
+  h3 {
+    margin: 21px;
+  }
+  .text {
+    padding-bottom: 17px;
+    padding-top: 17px;
+  }
+  div.review-item:not(:last-child) {
+    border-bottom: 1px solid rgb(192, 186, 186);
+  }
+  img {
+    padding-top: 15px;
+  }
+}

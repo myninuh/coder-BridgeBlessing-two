@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: white;
+  text-decoration: none;
+  text-align: center;
+}
+header h1 {
+  background-color: #495057;
+  padding: 16px 0px;
+  margin: 0px;
+  color: white;
+}
+nav {
+  margin-bottom: 32px;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  width: 71%;
+  margin: 54px;
+}
+footer {
+  background-color: black;
+  height: 100%;
+  color: white;
+  margin-top: 26px;
+  margin-bottom: -16px;
+}
+footer ul {
+  list-style: none;
+  text-align: right;
+}
+footer ul li a {
+  color: white;
+}
+
+.doncontact {
+  border: 1px solid rgb(179 171 171);
+  border-radius: 25px;
+  margin: 0px 30px;
+  padding: 10px 11px 13px 11px;
+}
+.reviews p {
+  margin: 2px 25px;
+}
+.reviews h3 {
+  margin: 21px;
+}
+.reviews .text {
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+.doncontact .form-check-label {
+  display: flex;
+}
+.contact ol {
+  margin: 31px 3px;
+}
+.contact h2 {
+  padding-bottom: 23px;
+}
+.quetiro {
+  padding-top: 19px;
+  margin: 0px 0px;
+}
+.reviews div.review-item:not(:last-child) {
+  border-bottom: 1px solid rgb(192, 186, 186);
+}
+.reviews img {
+  padding-top: 15px;
+}
+/* responsive */
+@media (min-width: 576px) {
+  .card {
+    width: 71%;
+    margin: 9px;
+    padding: 0px 0px;
+  }
+  .card-group > .card + .card {
+    border-left: 1px solid rgb(214, 214, 214);
+  }
+  .reviews p {
+    margin: 2px 79px;
+  }
+  .contact ol {
+    margin: 31px 22px;
+  }
+}
+@media (min-width: 720px) {
+  .card {
+    margin: 20px;
+  }
+  .doncontact {
+    margin: 10px 94px;
+  }
+  .contact ol {
+    margin: 31px 59px;
+  }
+  .quetiro {
+    margin: 8px 40px;
+  }
+}
+@media (min-width: 900px) {
+  .card {
+    margin: 25px;
+  }
+  .doncontact {
+    margin: 20px 120px;
+  }
+  .reviews p {
+    margin: 2px 147px;
+  }
+  .contact ol {
+    margin: 31px 126px;
+  }
+  .quetiro {
+    margin: 8px 140px;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    margin: 70px;
+  }
+  .doncontact {
+    margin: 40px 240px;
+  }
+  .reviews p {
+    margin: 2px 285px;
+  }
+  .contact ol {
+    margin: 31px 202px;
+  }
+  .quetiro {
+    margin: 8px 250px;
+  }
+}

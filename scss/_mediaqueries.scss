@@ -1,0 +1,124 @@
+@media (min-width: 576px) {
+  .card {
+    width: 71%;
+    margin: 9px;
+    padding: 0px 0px;
+  }
+  .card-group > .card + .card {
+    border-left: 1px solid rgb(214, 214, 214);
+  }
+  .reviews p {
+    margin: 2px 79px;
+  }
+  .contact ol {
+    margin: 31px 22px;
+  }
+  .mitocamp {
+    width: 500px;
+    height: 353px;
+  }
+  .elan {
+    width: 300px;
+    height: 300px;
+  }
+  .biography {
+    p {
+      margin: 16px 31px;
+    }
+  }
+  .imgreview {
+    width: 240px;
+    height: 363px;
+  }
+}
+@media (min-width: 720px) {
+  .card {
+    margin: 20px;
+  }
+  .doncontact {
+    margin: 10px 94px;
+  }
+  .contact ol {
+    margin: 31px 59px;
+  }
+  .quetiro {
+    margin: 8px 40px;
+  }
+  .mitocamp {
+    width: 700px;
+    height: 494px;
+  }
+  .elan {
+    width: 500px;
+    height: 500px;
+  }
+  .biography {
+    p {
+      margin: 16px 66px;
+    }
+  }
+  .imgreview {
+    width: 270px;
+    height: 400px;
+  }
+}
+@media (min-width: 900px) {
+  .card {
+    margin: 25px;
+  }
+  .doncontact {
+    margin: 20px 120px;
+  }
+  .reviews p {
+    margin: 2px 147px;
+  }
+  .contact ol {
+    margin: 31px 126px;
+  }
+  .quetiro {
+    margin: 8px 140px;
+  }
+  .mitocamp {
+    width: 900px;
+    height: 635px;
+  }
+  .elan {
+    width: 500px;
+    height: 500px;
+  }
+  .biography {
+    p {
+      margin: 16px 130px;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    margin: 70px;
+  }
+  .doncontact {
+    margin: 40px 240px;
+  }
+  .reviews p {
+    margin: 2px 285px;
+  }
+  .contact ol {
+    margin: 31px 202px;
+  }
+  .quetiro {
+    margin: 8px 250px;
+  }
+  .mitocamp {
+    width: 1000px;
+    height: 706px;
+  }
+  .elan {
+    width: 500px;
+    height: 500px;
+  }
+  .biography {
+    p {
+      margin: 16px 250px;
+    }
+  }
+}

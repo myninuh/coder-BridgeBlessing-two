@@ -1,0 +1,16 @@
+footer {
+  background-color: black;
+  height: 100%;
+  color: white;
+  margin-top: 26px;
+  margin-bottom: -16px;
+  ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: azure solid 1px;
+    li a {
+      color: white;
+    }
+  }
+}
